@@ -58,6 +58,3 @@ def test_last_element_target_odd():
 def test_normal():
     a = [0, 1, 21, 33, 45, 45, 61, 71, 72, 73]
     assert binary_search(a, 33) == 3
-
-
-# test_two_elements()
