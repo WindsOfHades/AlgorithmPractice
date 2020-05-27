@@ -42,6 +42,3 @@ def test_normal():
 def test_reverse():
     a = [5, 4, 3, 2, 1, 0, -1]
     assert bubble_sort(a) == [-1, 0, 1, 2, 3, 4, 5]
-
-
-test_normal()
